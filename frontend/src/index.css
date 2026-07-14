@@ -7,8 +7,8 @@
   --border-color: rgba(255, 255, 255, 0.08);
   --border-color-hover: rgba(255, 255, 255, 0.15);
   
-  --primary: #10b981;      /* Emerald Teal */
-  --primary-glow: rgba(16, 185, 129, 0.2);
+  --primary: #E2C275;      /* Champagne Gold */
+  --primary-glow: rgba(226, 194, 117, 0.2);
   --secondary: #6366f1;    /* Electric Indigo */
   --secondary-glow: rgba(99, 102, 241, 0.2);
   --accent: #8b5cf6;       /* Violet */
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:hover {
   box-shadow: 0 0 20px var(--primary-glow);
   transform: translateY(-2px);
-  background: #34d399;
+  background: #F0D8A0;
 }
 
 .btn-secondary {
@@ -668,7 +668,7 @@ select.form-input {
   margin-bottom: 20px;
 }
 
-.service-icon-wrapper.primary { background: rgba(16, 185, 129, 0.1); color: var(--primary); }
+.service-icon-wrapper.primary { background: rgba(226, 194, 117, 0.1); color: var(--primary); }
 .service-icon-wrapper.secondary { background: rgba(99, 102, 241, 0.1); color: var(--secondary); }
 .service-icon-wrapper.accent { background: rgba(139, 92, 246, 0.1); color: var(--accent); }
 .service-icon-wrapper.warning { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
@@ -741,7 +741,7 @@ select.form-input {
   right: 16px;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  color: #34d399;
+  color: #E2C275;
   font-size: 10px;
   padding: 4px 8px;
   border-radius: 6px;
@@ -1228,8 +1228,8 @@ select.form-input {
   align-items: center;
   text-align: center;
   padding: 16px;
-  background: rgba(16, 185, 129, 0.05);
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  background: rgba(226, 194, 117, 0.05);
+  border: 1px solid rgba(226, 194, 117, 0.2);
   border-radius: 10px;
   color: var(--primary);
 }
@@ -1525,9 +1525,9 @@ select.form-input {
 
 .badge-verified {
   font-size: 10px;
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(226, 194, 117, 0.1);
   color: var(--primary);
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(226, 194, 117, 0.2);
   padding: 2px 8px;
   border-radius: 20px;
   display: flex;
@@ -1679,7 +1679,7 @@ select.form-input {
   background: rgba(245, 158, 11, 0.1); color: var(--warning);
 }
 .status-pill.confirmed, .status-pill.fully_signed, .status-pill.completed {
-  background: rgba(16, 185, 129, 0.1); color: var(--primary);
+  background: rgba(226, 194, 117, 0.1); color: var(--primary);
 }
 .status-pill.declined {
   background: rgba(239, 68, 68, 0.1); color: var(--danger);
